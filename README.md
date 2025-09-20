@@ -1,15 +1,32 @@
-# Financial Data Analysis
+# Financial Data EDA - AAL Company
 
 ## Objective
-Perform exploratory data analysis on financial datasets to identify trends, patterns, and key insights.
+Perform exploratory data analysis on AAL stock data to uncover trends, correlations, and insights using Python.
+
+## Dataset
+- Source: [all_stocks_5yr.csv]
+- 5 years of stock data for multiple companies
 
 ## Tools & Technologies
-Python | Pandas | Matplotlib | Seaborn | Power BI
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Jupyter Notebook
 
-## Planned Features
+## Features
 - Data cleaning & preprocessing
-- Exploratory visualizations (bar charts, line charts, heatmaps)
-- Summary insights and conclusions
+- Distribution analysis of closing prices
+- Trend visualization over time
+- Volume analysis
+- Correlation heatmap between numerical features
+- Scatter plot of Open vs Close prices with volume
+
+## Key Insights
+1. Closing prices trend can be observed over time with fluctuations.
+2. Strong correlation exists between Open and Close prices.
+3. Trading volume shows spikes on certain days.
+4. Distribution of closing prices shows central tendency and spread.
+5. Scatter plot indicates Open and Close prices are closely related.
 
 ## Status
-Project in planning phase. Code and analysis to be completed soon.
+Completed
