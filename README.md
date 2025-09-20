@@ -1,19 +1,21 @@
-# Financial Data EDA - AAL Company
+# 📊 Financial Data EDA - AAL Company
 
-## Objective
-Perform exploratory data analysis on AAL stock data to uncover trends, correlations, and insights using Python.
+## 🎯 Objective
+Perform exploratory data analysis (EDA) on AAL stock data to uncover **trends, correlations, and insights** using Python.
 
-## Dataset
-- Source: [all_stocks_5yr.csv]
-- 5 years of stock data for multiple companies
+## 📂 Dataset
+- **Source**: [all_stocks_5yr.csv](https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs)  
+- **Description**: Contains 5 years of daily stock data (open, close, high, low, volume) for multiple companies.
 
-## Tools & Technologies
-- Python
+⚠️ *Note*: Due to file size limits, the dataset is not uploaded directly to this repository. You can download it from the link above and place it in the project folder.
+
+## 🛠️ Tools & Technologies
+- Python (3.x)
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Jupyter Notebook
 
-## Features
+## ✨ Features
 - Data cleaning & preprocessing
 - Distribution analysis of closing prices
 - Trend visualization over time
@@ -21,12 +23,15 @@ Perform exploratory data analysis on AAL stock data to uncover trends, correlati
 - Correlation heatmap between numerical features
 - Scatter plot of Open vs Close prices with volume
 
-## Key Insights
-1. Closing prices trend can be observed over time with fluctuations.
-2. Strong correlation exists between Open and Close prices.
-3. Trading volume shows spikes on certain days.
-4. Distribution of closing prices shows central tendency and spread.
-5. Scatter plot indicates Open and Close prices are closely related.
+## 📈 Key Insights
+1. **Closing prices** trend over time, showing noticeable fluctuations.  
+2. Strong **positive correlation** between Open and Close prices.  
+3. **Trading volume spikes** occur on certain significant days.  
+4. Distribution of closing prices highlights **central tendency and spread**.  
+5. Scatter plots confirm that **Open and Close prices** are closely related.  
 
-## Status
-Completed
+## 🚀 How to Run
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/Financial-Data-Analysis.git
+   cd Financial-Data-Analysis
